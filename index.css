@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    height: 425px;
+    width: 100%;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-white{
+    color: white;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.right{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.define{
+    font-size: 40px;
+    
+}
+.search{
+    height: 50px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fi-sr-marker{
+    color: rgb(255, 90, 90);
+    font-size: 25px;
+
+}
+.fi-rr-search{
+    margin-left: 10px;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    
+}
+.city{
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+.city:focus{
+    outline: none;
+}
+.diff{
+    font-weight: 200;
+    color: black;
+
+}
+.dish{
+    margin-left: 10px;
+    height: 100%;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+
+}
+.dish:focus{
+    outline: none;
+}
+.card{
+    height: 250px;
+    width:  450px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 0.1px;
+    border-color: rgba(90, 83, 83, 0.986);
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+.card_container{
+   padding-left: 150px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card img{
+    height: 65%;
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+}
